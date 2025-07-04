@@ -55,6 +55,13 @@
   background: #16161a;
 }
 
+.gallery-area img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 400px;
+}
+
 /* line 67, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_color.scss */
 .theme-bg {
   background: #071112;
@@ -3678,12 +3685,6 @@ nav.nav-menu-show {
   background-size: cover;
 }
 
-/* line 35, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
-.slider-bg2 {
-  background-image: url(../img/hero/h1_hero2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /* line 40, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
 .slider-bg3 {
@@ -3699,7 +3700,7 @@ nav.nav-menu-show {
 
 /* line 53, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
 .slider-area.slider-area2 {
-  background-image: url(../img/hero/h2_hero.png);
+  background-image: url(../img/hero/h1_hero2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -4336,7 +4337,7 @@ nav.nav-menu-show {
 /* line 119, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_all_startups.scss */
 .all-starups-area .starups-img {
   width: 50%;
-  background-image: url(../img/gallery/startup_bg.png);
+  background-image: url(../img/uniformes/K19-1.jpg);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
